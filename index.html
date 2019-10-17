@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="eng" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title> Bzz Bzz </title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/typo.css">
+  <link rel="stylesheet" href="css/master.css">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A simple content slider with depth-like zoom functionality" />
+  <meta name="keywords" content="blueprint, template, slider, zoom, javascript, depth, 3d, css" />
+  <meta name="Lucas" content="Codrops" />
+  <link rel="shortcut icon" href="fav-icon.jpg">
+  <!-- Feather Icons -->
+  <link rel="stylesheet" type="text/css" href="fonts/feather/style.css">
+  <!-- General demo styles & header -->
+  <link rel="stylesheet" type="text/css" href="css/demo.css" />
+  <!-- Component styles -->
+  <link rel="stylesheet" type="text/css" href="css/component.css" />
+  <script src="js/modernizr.custom.js"></script>
+</head>
+<body>
+	<!-- Main container -->
+	<div class="container">
+		<!-- Blueprint header -->
+		<header class="bp-header cf">
+			<span>Les Abeilles <span class="" ></span></span>
+		</header>
+		<!-- Grid -->
+		<section class="slider">
+			<div class="slide slide--current" data-content="content-1">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+<div class="preview ">
+							<img src="images/coucou.jpg" alt="Head bee" class="zoomer__image"
+/>
+							<div class="zoomer__area zoomer__area--size-2"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span>Bzz Hello Bzz</span>Enchanté de te connaitre!</h2>
+			</div>
+			<div class="slide" data-content="content-2">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+<div class="preview">
+						<img class="zoomer__image" src="images/ruche.jpg" alt="Hive" />
+							<div class="zoomer__area zoomer__area--size-4"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span>Bienvenue chez moi !</span>Ne reste pas dehors, entre!</h2>
+			</div>
+			<div class="slide" data-content="content-3">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+<div class="preview ">
+  						<img class="zoomer__image" src="images/pollen.jpg" alt="Abeilles fleurs" />
+							<div class="zoomer__area zoomer__area--size-3"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span>Mon alimentation</span>J'ai préparé à manger pour 60 000 personnes, une de plus ou de moins</h2>
+			</div>
+			<div class="slide" data-content="content-4">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+<div class="preview ">
+						<img class="zoomer__image" src="images/pollution.jpg" alt="Abeilles danger" />
+							<div class="zoomer__area zoomer__area--size-5"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span>Je suis en danger</span>Et tu peux m'aider!</h2>
+			</div>
+			<nav class="slider__nav">
+
+				<button class="button button--nav-prev"><i class="icon icon--arrow-left"></i><span class="text-hidden">Previous product</span></button>
+	      <button class="button button--zoom"><i class="icon icon--zoom"></i><span class="text-hidden">View details</span></button>
+				<button class="button button--nav-next"><i class="icon icon--arrow-right"></i><span class="text-hidden">Next product</span></button>
+			</nav>
+		</section>
+		<!-- /slider-->
+		<section class="content">
+			<div class="content__item" id="content-1">
+				<img class="content__item-img rounded-right" src="images/cc2.jpg" alt="Abeille" />
+				<div class="content__item-inner">
+					<h2>Qui suis-je ?</h2>
+					<h3>Maya l'abeille</h3>
+					<p class="text">Salut à toi, mon nom est abeille. Mon espèce forme un groupe d'organismes vivants, appelé insecte. Nous sommes en tout plus de 20 000 espèces répertoriées sur la planète dont environ 2 000 en Europe et près de 1 000 en France. En hiver on peut vivre jusqu'à 10 mois, tandis qu'en été nous vivons environ 1 mois.<br />
+Il existe plusieurs types d'abeilles : les abeilles domestiques, sauvages, solitaires ou bien sociales. On nous compare souvent à des guêpes mais par leur morphologie leur comportement et leur alimentation nous pouvons être facilement reconnaissable.  Nos amis les bourdons en revanche, sont un groupe particulier d'abeilles.<br />
+<br />
+Pour nous reconnaitre plus facilement une abeille c'est :<br />
+<br />
+
+- 6 pattes (3 paires)<br />
+
+- 2 paires d'ailes<br />
+
+- 2 antennes<br />
+
+- 1 "trompe" (langue)<br />
+- 2 yeux à facettes (4500 par oeil chez l'ouvrière et 7500 par oeil chez le faux-bourdon...pour mieux repérer les reines à féconder...)<br />
+
+- 3 ocelles (qui captent la lumière)</p>
+					<p><a href="https://jeretiens.net/difference-entre-guepe-et-abeille-bourdon-faux-bourdon-et-frelon/">Si tu veux en savoir plus sur nos différences, clique ici ! &xrarr;</a></p>
+				</div>
+			</div>
+			<div class="content__item" id="content-2">
+        <video width="520" height="440" class="content__item-img rounded-right" controls>
+<source src="media/ruche.mp4" type="video/mp4">
+Votre navigateur ne supporte pas la balise vidéo.
+</video>
+				<div class="content__item-inner">
+					<h2>Je te fais visiter ?</h2>
+					<h3>On est une grande famille</h3>
+					<p class="text">Lorsque l'on est en groupe on m'appelle colonie. Dans ma ruche on peut être de 15 000 à 60 000 ouvrières selon la saison (plus printemps, été), de 0 à 2000 faux bourbons (les mâles des abeilles) : totalement absents des ruches en automne et en hiver, ils servent à féconder les reines au printemps et en été et notre maman notre reine. <br />
+            Notre reine peut pondre jusqu'à 2000 frères et soeurs par jours et elle peut choisir si elle veut une fille ou un garcon.
+
+            </p>
+				</div>
+			</div>
+			<div class="content__item" id="content-3">
+				<img class="content__item-img rounded-right" src="images/pollen2.jpg" alt="pollen abeille" />
+				<div class="content__item-inner">
+          <h2>Mon alimentation</h2>
+					<h3>J'aime les fleurs !</h3>
+					<p class="text">En effet je passe la majorité de ma vie dans les fleurs. Je ne mange pas la fleur en elle même mais plutôt se qu'elle produit: un nectar délicieux. Cependant, toutes les fleurs n'en produisent pas. On choisit alors de ce diriger vers celle qui en propose. Et comme toutes nourritures on a nos préférences gustatives !
+            </p>
+					<p><a href="https://fr.wikipedia.org/wiki/Nectar_(botanique)">Si tu veux en savoir plus sur le nectar, clique ici ! &xrarr;</a></p>
+				</div>
+			</div>
+			<div class="content__item" id="content-4">
+				<div class="content__item-inner">
+					<h2>Et c'est serieux</h2>
+					<h3>Tentons de changer ça</h3>
+					<p class="text">Petit à petit notre ecosystème se fragilise, et devient invivable pour nous. Pour que nous continuons à cohabiter il faut réagir, car sans nous votre alimentation serait moins riche. Les ondes, nous désorientes, les pesticides nous tuent, et la deforestation nous demande d'aller plus loin pour se nourrir. </p>
+          <video width="520" height="440" class="content__item-img rounded-right"controls>
+<source src="media/danger.mp4" type="video/mp4">
+Votre navigateur ne supporte pas la balise vidéo.
+</video>
+<video width="520" height="440" class="content__item-img rounded-right"controls>
+<source src="media/don.mp4" type="video/mp4">
+Votre navigateur ne supporte pas la balise vidéo.
+</video>
+				</div>
+			</div>
+			<button class="button button--close"><i class="icon icon--circle-cross"></i><span class="text-hidden">Close content</span></button>
+		</section>
+	</div>
+	<script src="js/classie.js"></script>
+	<script src="js/dynamics.min.js"></script>
+	<script src="js/main.js"></script>
+  <body style="background-color:black;">
+  </body>
+
+
+</body>
+</html>
